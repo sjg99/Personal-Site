@@ -6,26 +6,66 @@ body {
     background-color: #000000;
 }
 nav{
+    background-color: #000000;
+    height: 52px;
+    position: sticky;
+}
+nav ul {    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;   
+}
+nav ul.NavTitle li{
+    float: left;
+}
+nav ul.NavOptions li{
+    float: right;
+}
+nav ul li a{
+    display: block;    
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 1.2em;
+    color: #6b0a03;
+    text-decoration: none;
+}
+nav ul.NavOptions li a:hover{
     background-color: #333333;
 }
-nav ul li{
-    font-family: 'Do Hyeon', sans-serif;
-    color: #ffffff;
-    list-style-type: none;
+.Start{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .SText{
-    width: 500px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    font-family: 'Fjalla One', sans-serif;
 }
 .STitle {
-    color: #ffffff;
+    color: #6b0a03;
+    font-size: 4em;
 }
 .SDescription{
     color: #8c8c8c;
+    font-size: 2em;
+    margin-bottom: 50px;
 }
 .SSocialMedia{
-    color: #333333;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;       
+}
+.SMCard{
+    width: 100px; 
+    text-align: center;   
 }
 .SImg{
-    width: 300px;
+    width: 400px;
 }
-
