@@ -34,11 +34,11 @@ nav ul.NavOptions li a:hover{
     background-color: #333333;
 }
 .Start{
-    padding-top: 100px;
+    padding-top: 200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;    
 }
 .SText{
     width: 800px;
@@ -69,4 +69,17 @@ nav ul.NavOptions li a:hover{
 }
 .SImg{
     width: 400px;
+}
+.Rest{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+.Rest p{
+    color: #8c8c8c;
+    font-size: 2em;    
+    font-family: 'Fjalla One', sans-serif;
 }
