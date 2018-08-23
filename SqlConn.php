@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
+$servername = "sql206.hostlibre.ml";
+$username = "teolo_22018124";
 $password = "sajago99";
-$dbname = "DB1";
+$dbname = "teolo_22018124_DB1";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
