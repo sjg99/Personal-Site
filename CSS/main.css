@@ -70,16 +70,28 @@ nav ul.NavOptions li a:hover{
 .SImg{
     width: 400px;
 }
-.Rest{
+
+.JS{
     padding-top: 200px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom: 200px;
-}
-.Rest p{
+    flex-wrap: wrap;    
+    justify-content: center;  
     color: #8c8c8c;
     font-size: 2em;    
     font-family: 'Fjalla One', sans-serif;
+}
+.PHP{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content: center;
+    padding-bottom: 200px;
+}
+.ND{
+    color: #8f0000;
+    font-size: 2em;    
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: underline;
 }
