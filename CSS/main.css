@@ -81,7 +81,7 @@ nav ul.NavOptions li a:hover{
     font-size: 2em;    
     font-family: 'Fjalla One', sans-serif;
 }
-.PHP{
+.Links{
     padding-top: 200px;
     display: flex;
     flex-direction: row;
@@ -95,3 +95,50 @@ nav ul.NavOptions li a:hover{
     font-family: 'Fjalla One', sans-serif;
     text-decoration: underline;
 }
+.TSel{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content: center;
+    font-size: 1.5em;    
+    font-family: 'Fjalla One', sans-serif;
+    color: #8c8c8c;
+}
+.TSel h1{
+    font-size: 2em;    
+    font-family: 'Fjalla One', sans-serif;
+    color: #333333;
+}
+.FIns{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content: center; 
+    font-size: 1.5em;    
+    font-family: 'Fjalla One', sans-serif;
+    color: #8c8c8c;    
+}
+.FIns h1{
+    font-size: 2em;    
+    font-family: 'Fjalla One', sans-serif;
+    color: #333333;
+}
+.FIns button{
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: #333333;
+    font-size: 0.8em;    
+    font-family: 'Fjalla One', sans-serif;
+    color: #8c8c8c;
+    border: none;
+}
+.FIns input{
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 2px;
+    font-size: 0.8em;    
+    font-family: 'Fjalla One', sans-serif;
+}
+
